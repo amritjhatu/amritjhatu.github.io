@@ -76,6 +76,10 @@
   .navbar a:hover {
     text-decoration: underline;
   }
+
+  .footer {
+    position: fixed; 
+}
   
   .error {
     color: red;
