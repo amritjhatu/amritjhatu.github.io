@@ -1,4 +1,4 @@
-import React from './pages/Projects';
+import React from 'react';
 
 const Projects = () => {
     return (
@@ -12,5 +12,6 @@ const Projects = () => {
             </ul>
         </div>
     );
-}
+};
+
 export default Projects;
