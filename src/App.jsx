@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import AddStudent from './pages/AddStudent';
 import EditStudent from './pages/EditStudent';
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" component={About} />
         </Switch>
       </main>
+      <Footer />
     </div>
   );
 }
