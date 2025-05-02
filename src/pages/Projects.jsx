@@ -1,4 +1,4 @@
-import React from 'react';
+import React from './pages/Projects';
 
 const Projects = () => {
     return (
