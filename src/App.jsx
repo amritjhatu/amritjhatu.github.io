@@ -4,6 +4,8 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import AddStudent from './pages/AddStudent';
 import EditStudent from './pages/EditStudent';
+import Projects from './pages/Projects';
+import About from './pages/About';
 import './App.css';
 
 function App() {
