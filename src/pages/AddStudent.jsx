@@ -11,7 +11,7 @@ const AddStudent = () => {
 
     return (
         <div className="container">
-            <h1>Add New Student</h1>
+            <h1>Add A Student</h1>
             <StudentForm onSubmitSuccess={handleSubmitSuccess} />
         </div>
     );
