@@ -4,7 +4,7 @@ import StudentList from '../components/StudentList';
 const Home = () => {
     return (
         <div className="container">
-            <h1>Student Management</h1>
+            <h1>Amrit Jhatu</h1>
             <StudentList />
         </div>
     );
