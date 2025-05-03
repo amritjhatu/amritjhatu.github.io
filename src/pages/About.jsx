@@ -36,9 +36,9 @@ const About = () => {
             <div className="about-section">
                 <h2>Let's Connect</h2>
                 <p>
-                    Feel free to explore my <a href="/portfolio" className="link">portfolio</a>, check out my 
+                    Feel free to explore my <a href="/portfolio" className="link">portfolio</a>, check out my  
                     <a href="https://github.com/amritjhatu" target="_blank" rel="noopener noreferrer" className="link">GitHub</a>, 
-                    or connect with me on 
+                    or connect with me on  
                     <a href="https://linkedin.com/in/amritjhatu" target="_blank" rel="noopener noreferrer" className="link">LinkedIn</a>. 
                     I'm always open to collaborating on exciting projects or just having a chat!
                 </p>
