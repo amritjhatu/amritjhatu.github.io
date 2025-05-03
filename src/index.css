@@ -76,16 +76,7 @@
   .navbar a:hover {
     text-decoration: underline;
   }
-
-  .footer {
-    background-color: #333; /* Add background color */
-    color: white; /* Set text color */
-    text-align: center; /* Center-align text */
-    padding: 1rem 0; /* Add padding */
-    position: fixed; /* Keep it fixed at the bottom */
-    bottom: 0; /* Position it at the bottom of the viewport */
-    width: 100%; /* Ensure it spans the full width */
-}
+  
   
   .error {
     color: red;
