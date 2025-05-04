@@ -1,22 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/NavBar.css'; 
 
 const NavBar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <nav className="navbar">
             <div className="container">
                 <h1>
-                    <Link to="/"> Amrit Jhatu </Link>
-                    </h1>
-                <ul>
+                    <Link to="/">Amrit Jhatu's Portfolio</Link>
+                </h1>
+                <button className="menu-toggle" onClick={toggleMenu}>
+                    ☰
+                </button>
+                <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
                     <li>
-                        <Link to="/projects">Projects</Link>
+                        <Link to="/projects" onClick={() => setIsMenuOpen(false)}>Projects</Link>
                     </li>
                     <li>
-                        <Link to="/add">Add Student</Link>
+                        <Link to="/add" onClick={() => setIsMenuOpen(false)}>Add Student</Link>
                     </li>
                     <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about" onClick={() => setIsMenuOpen(false)}>About</Link>
                     </li>
                 </ul>
             </div>
