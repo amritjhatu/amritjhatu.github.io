@@ -7,8 +7,8 @@ const Footer = () => {
             <div className="container">
                 <p>&copy; {new Date().getFullYear()} Amrit Jhatu. All rights reserved.</p>
                 <p>
-                    <a href="https://github.com/amritjhatu" target="_blank" rel="noopener noreferrer">GitHub</a> | 
-                    <a href="https://linkedin.com/in/amritjhatu" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
+                    <a href="https://github.com/amritjhatu" target="_blank" rel="noopener noreferrer"><FaGithub size={30} /></a> | 
+                    <a href="https://linkedin.com/in/amritjhatu" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={30} /></a>
                 </p>
             </div>
         </footer>
