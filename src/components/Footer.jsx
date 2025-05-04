@@ -1,5 +1,6 @@
 import React from 'react';
-import '../styles/Footer.css'; // Optional: Add styles for the footer
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import '../styles/Footer.css'; 
 
 const Footer = () => {
     return (
