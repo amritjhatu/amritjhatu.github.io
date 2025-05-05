@@ -9,7 +9,7 @@ const Footer = () => {
                 <p>&copy; {new Date().getFullYear()} Amrit Jhatu. All rights reserved.</p>
                 <p>
                     <a href="https://github.com/amritjhatu" target="_blank" rel="noopener noreferrer">
-                    <FaGithub size={20} style={{ marginRight: '8px' }} /></a> | 
+                    <FaGithub size={20} style={{ marginRight: '8px' }} /></a>
                     <a href="https://linkedin.com/in/amritjhatu" target="_blank" rel="noopener noreferrer"> 
                     <FaLinkedin size={20} style={{ marginRight: '8px' }} /></a>
                 </p>
