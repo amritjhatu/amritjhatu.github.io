@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars } from 'react-icons/fa'; 
-import '../styles/NavBar.css'; 
+import { FaBars } from 'react-icons/fa';
+import '../styles/NavBar.css';
 
 const NavBar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,16 +9,17 @@ const NavBar = () => {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
     return (
         <nav className="navbar">
-            <div className="container">
-                <h1>
+            <div className="navbar-container">
+                <h1 className="navbar-title">
                     <Link to="/">Amrit Jhatu's Portfolio</Link>
                 </h1>
-                <button className="hamburger" onClick={toggleMenu}>
+                <button className="hamburger-icon" onClick={toggleMenu}>
                     <FaBars />
                 </button>
-                <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
+                <ul className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
                     <li>
                         <Link to="/projects" onClick={() => setIsMenuOpen(false)}>Projects</Link>
                     </li>
