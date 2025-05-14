@@ -63,25 +63,28 @@ const Projects = () => {
             </div>
 
             {selectedProject && (
-                <div className="modal">
-                    <div className="modal-content">
-                        <span className="close" onClick={handleCloseModal}>
-                            &times;
-                        </span>
-                        <h2>{selectedProject.title}</h2>
-                        <img
-                            src={selectedProject.logo}
-                            alt={`${selectedProject.title} logo`}
-                        />
-                        <p>{selectedProject.description}</p>
-                        <ul>
-                            {selectedProject.details.map((detail, index) => (
-                                <li key={index}>{detail}</li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
-            )}
+    <div className="modal" onClick={handleCloseModal}>
+        <div
+            className="modal-content"
+            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
+        >
+            <span className="close" onClick={handleCloseModal}>
+                &times;
+            </span>
+            <h2>{selectedProject.title}</h2>
+            <img
+                src={selectedProject.logo}
+                alt={`${selectedProject.title} logo`}
+            />
+            <p>{selectedProject.description}</p>
+            <ul>
+                {selectedProject.details.map((detail, index) => (
+                    <li key={index}>{detail}</li>
+                ))}
+            </ul>
+        </div>
+    </div>
+)}
         </div>
     );
 };
