@@ -24,7 +24,7 @@ const projects = [
     },
     {
         title: "Get Kindr Foundation",
-        logo: "https://via.placeholder.com/150", 
+        logo: "./assets/getkindr.png", 
         description: "Integrated NFC technology for attendance tracking and maintained a PostgreSQL database.",
         details: [
             "Integrated NFC technology for attendance tracking.",
