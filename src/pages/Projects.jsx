@@ -13,13 +13,13 @@ const projects = [
         ]
     },
     {
-        title: "ProxyChat",
+        title: "Good Deed Books",
         logo: "https://via.placeholder.com/150",
-        description: "Collaborated in an agile environment to create a chat application with Firebase and Google Maps API.",
+        description: "Contributed to an open source project by redesigning the navigation menu system.",
         details: [
-            "Boosted team productivity by 50% in an agile environment.",
-            "Handled user images and interactions through Firebase.",
-            "Integrated Google Maps API for location-based features."
+            "Researched several component libraries such as Radzen and MudBlazor.",
+            "Used the existing Core UI, Boostrap and CSS to re-design the navigation menu.",
+            "Fixed the issues the previous navigation menu had, such as the carets not functioning as intended."
         ]
     },
     {
@@ -66,7 +66,7 @@ const Projects = () => {
     <div className="modal" onClick={handleCloseModal}>
         <div
             className="modal-content"
-            onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
+            onClick={(e) => e.stopPropagation()} 
         >
             <span className="close" onClick={handleCloseModal}>
                 &times;
