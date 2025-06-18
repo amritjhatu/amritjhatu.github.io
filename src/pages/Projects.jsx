@@ -3,6 +3,16 @@ import '../styles/Projects.css';
 
 const projects = [
     {
+        title: "Wazubee Health Analytics",
+        logo: "https://via.placeholder.com/150", 
+        description: "Implemented OpenAI API integration to retrieve data from a legal dataset and simplify complex legal documents.",
+        details: [
+            "Integrated OpenAI API for query resolution.",
+            "Performed user testing and troubleshooting.",
+            "Utilized EJS for clean JS structure formatting."
+        ]
+    },
+    {
         title: "LegallyWise AI",
         logo: "https://via.placeholder.com/150", 
         description: "Implemented OpenAI API integration to retrieve data from a legal dataset and simplify complex legal documents.",
